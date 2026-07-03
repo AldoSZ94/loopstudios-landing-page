@@ -19,7 +19,7 @@ La interfaz fue construida utilizando utilidades de Tailwind CSS, priorizando un
 
 ## 🚀 Demo
 
-👉 https://TU-DEMO.netlify.app/
+👉 https://loopstudios-landing-page-sigma-nine.vercel.app/
 
 ---
 
