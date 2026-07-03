@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link type="image/svg+xml" href="/favicon.svg" rel="icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>loopstudios-landing-page</title>
+  </head>
+  <body class="font-alata relative text-[15px]">
+    <!-- Hero -->
+    <div
+      class="bg-[url('./src/assets/img/image-hero-mobile.jpg')] bg-cover bg-no-repeat py-5 lg:bg-[url('./src/assets/img/image-hero-desktop.jpg')]"
+    >
+      <header
+        class="mx-auto flex h-150 w-9/10 max-w-300 flex-col items-center text-white"
+      >
+        <div class="flex w-full items-center justify-between">
+          <a class="z-10" href="index.html"
+            ><img src="./src/assets/img/logo.svg" alt="Logo"
+          /></a>
+          <nav class="hidden md:block" id="nav">
+            <ul class="flex gap-10">
+              <li>
+                <a
+                  class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                  href="#"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                  href="#"
+                  >Careers</a
+                >
+              </li>
+              <li>
+                <a
+                  class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                  href="#"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a
+                  class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                  href="#"
+                  >Products</a
+                >
+              </li>
+              <li>
+                <a
+                  class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                  href="#"
+                  >Support</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <button
+            class="z-10 cursor-pointer md:hidden"
+            id="menu-button"
+            aria-controls="drop-down-menu"
+            aria-expanded="false"
+          >
+            <img id="menu-icon" src="./src/assets/img/icon-hamburger.svg" alt />
+          </button>
+        </div>
+        <div class="flex w-full flex-1 items-center">
+          <h1
+            class="font-josefin-sans max-w-[13ch] border-2 border-white p-5 text-left text-4xl font-light uppercase md:text-6xl lg:text-7xl"
+          >
+            Immersive experiences that deliver
+          </h1>
+        </div>
+      </header>
+    </div>
+    <main class="mx-auto flex w-9/10 max-w-300 flex-col gap-12 py-18 lg:gap-24">
+      <!-- About -->
+      <section class="relative flex flex-col gap-6">
+        <picture>
+          <source
+            media="(min-width:1024px)"
+            srcset="./src/assets/img/image-interactive-desktop.jpg"
+          />
+          <img
+            class="w-full lg:w-3/4"
+            src="./src/assets/img/image-interactive-mobile.jpg"
+            alt
+          />
+        </picture>
+        <div
+          class="flex flex-col gap-3 bg-white text-center lg:absolute lg:right-0 lg:bottom-0 lg:w-1/2 lg:pt-15 lg:pl-15 lg:text-left"
+        >
+          <h2
+            class="font-josefin-sans text-3xl font-light uppercase xl:text-4xl"
+          >
+            The leader in interactive VR
+          </h2>
+          <p class="text-gris">
+            Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe.
+            Our award-winning creations have transformed businesses through
+            digital experiences that bind to their brand.
+          </p>
+        </div>
+      </section>
+      <!-- Creations Articles Grid -->
+      <section class="grid items-center gap-6 lg:grid-cols-2">
+        <h2
+          class="font-josefin-sans text-center text-3xl font-light uppercase lg:justify-self-start"
+        >
+          Our creations
+        </h2>
+        <div
+          class="grid gap-5 md:grid-cols-2 lg:col-span-2 lg:row-start-2 lg:grid-cols-4"
+        >
+          <article>
+            <a class="group relative block overflow-hidden" href="#">
+              <picture>
+                <source
+                  media="(min-width:1024px)"
+                  srcset="./src/assets/img/image-deep-earth-desktop.jpg"
+                />
+                <img
+                  class="w-full transition duration-300 group-hover:scale-105 group-hover:opacity-40"
+                  src="./src/assets/img/image-deep-earth-mobile.jpg"
+                  alt="View of planet Earth from space"
+                />
+              </picture>
+              <h3
+                class="font-josefin-sans absolute bottom-0 max-w-[10ch] p-5 text-2xl font-light text-white uppercase transition duration-300 group-hover:text-black"
+              >
+                Deep Earth
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a class="group relative block overflow-hidden" href="#">
+              <picture>
+                <source
+                  media="(min-width:1024px)"
+                  srcset="./src/assets/img/image-night-arcade-desktop.jpg"
+                />
+                <img
+                  class="w-full transition duration-300 group-hover:scale-105 group-hover:opacity-40"
+                  src="./src/assets/img/image-night-arcade-mobile.jpg"
+                  alt="Arcade game with illuminated targets"
+                />
+              </picture>
+              <h3
+                class="font-josefin-sans absolute bottom-0 max-w-[10ch] p-5 text-2xl font-light text-white uppercase transition duration-300 group-hover:text-black"
+              >
+                Night Arcade
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a class="group relative block overflow-hidden" href="#">
+              <picture>
+                <source
+                  media="(min-width:1024px)"
+                  srcset="./src/assets/img/image-soccer-team-desktop.jpg"
+                />
+                <img
+                  class="w-full transition duration-300 group-hover:scale-105 group-hover:opacity-40"
+                  src="./src/assets/img/image-soccer-team-mobile.jpg"
+                  alt="Soccer player running with a ball"
+                />
+              </picture>
+              <h3
+                class="font-josefin-sans absolute bottom-0 max-w-[10ch] p-5 text-2xl font-light text-white uppercase transition duration-300 group-hover:text-black"
+              >
+                Soccer Team VR
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a class="group relative block overflow-hidden" href="#">
+              <picture>
+                <source
+                  media="(min-width:1024px)"
+                  srcset="./src/assets/img/image-grid-desktop.jpg"
+                />
+                <img
+                  class="w-full transition duration-300 group-hover:scale-105 group-hover:opacity-40"
+                  src="./src/assets/img/image-grid-mobile.jpg"
+                  alt="Close-up of a race car wheel"
+                />
+              </picture>
+              <h3
+                class="font-josefin-sans absolute bottom-0 max-w-[10ch] p-5 text-2xl font-light text-white uppercase transition duration-300 group-hover:text-black"
+              >
+                The Grid
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a class="group relative block overflow-hidden" href="#">
+              <picture>
+                <source
+                  media="(min-width:1024px)"
+                  srcset="./src/assets/img/image-from-above-desktop.jpg"
+                />
+                <img
+                  class="w-full transition duration-300 group-hover:scale-105 group-hover:opacity-40"
+                  src="./src/assets/img/image-from-above-mobile.jpg"
+                  alt="Aerial view of winding roads"
+                />
+              </picture>
+              <h3
+                class="font-josefin-sans absolute bottom-0 max-w-[12ch] p-5 text-2xl font-light text-white uppercase transition duration-300 group-hover:text-black"
+              >
+                From up above VR
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a class="group relative block overflow-hidden" href="#">
+              <picture>
+                <source
+                  media="(min-width:1024px)"
+                  srcset="./src/assets/img/image-pocket-borealis-desktop.jpg"
+                />
+                <img
+                  class="w-full transition duration-300 group-hover:scale-105 group-hover:opacity-40"
+                  src="./src/assets/img/image-pocket-borealis-mobile.jpg"
+                  alt="Northern lights over mountains"
+                />
+              </picture>
+              <h3
+                class="font-josefin-sans absolute bottom-0 max-w-[10ch] p-5 text-2xl font-light text-white uppercase transition duration-300 group-hover:text-black"
+              >
+                Pocket Borealis
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a class="group relative block overflow-hidden" href="#">
+              <picture>
+                <source
+                  media="(min-width:1024px)"
+                  srcset="./src/assets/img/image-curiosity-desktop.jpg"
+                />
+                <img
+                  class="w-full transition duration-300 group-hover:scale-105 group-hover:opacity-40"
+                  src="./src/assets/img/image-curiosity-mobile.jpg"
+                  alt="Mars rover on a desert landscape"
+                />
+              </picture>
+              <h3
+                class="font-josefin-sans absolute bottom-0 max-w-[10ch] p-5 text-2xl font-light text-white uppercase transition duration-300 group-hover:text-black"
+              >
+                The Curiosity
+              </h3>
+            </a>
+          </article>
+          <article>
+            <a class="group relative block overflow-hidden" href="#">
+              <picture>
+                <source
+                  media="(min-width:1024px)"
+                  srcset="./src/assets/img/image-fisheye-desktop.jpg"
+                />
+                <img
+                  class="w-full transition duration-300 group-hover:scale-105 group-hover:opacity-40"
+                  src="./src/assets/img/image-fisheye-mobile.jpg"
+                  alt="360-degree fisheye view of a landscape"
+                />
+              </picture>
+              <h3
+                class="font-josefin-sans absolute bottom-0 max-w-[10ch] p-5 text-2xl font-light text-white uppercase transition duration-300 group-hover:text-black"
+              >
+                Make it Fisheye
+              </h3>
+            </a>
+          </article>
+        </div>
+        <a
+          class="inline-block justify-self-center border px-12 py-3 tracking-[5px] uppercase transition-colors duration-300 hover:bg-black hover:text-white lg:justify-self-end"
+          href="#"
+          >See all</a
+        >
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-black">
+      <div
+        class="mx-auto grid w-9/10 max-w-300 items-end justify-items-center gap-6 py-12 lg:grid-cols-2"
+        aria-label="Footer navigation"
+      >
+        <a shref="index.html"
+          ><img src="./src/assets/img/logo.svg" alt="Logo"
+        /></a>
+        <nav>
+          <ul class="flex flex-col items-center gap-6 text-white lg:flex-row">
+            <li>
+              <a
+                class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                href="#"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                href="#"
+                >Careers</a
+              >
+            </li>
+            <li>
+              <a
+                class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                href="#"
+                >Events</a
+              >
+            </li>
+            <li>
+              <a
+                class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                href="#"
+                >Products</a
+              >
+            </li>
+            <li>
+              <a
+                class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+                href="#"
+                >Support</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div
+          class="flex flex-col items-center gap-6 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:justify-self-center"
+        >
+          <!-- Social media links -->
+          <div class="flex gap-3">
+            <a
+              class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+              href="#"
+            >
+              <img
+                src="./src/assets/img/icon-facebook.svg"
+                alt="Visit us on Facebook"
+            /></a>
+            <a
+              class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+              href="#"
+            >
+              <img
+                src="./src/assets/img/icon-twitter.svg"
+                alt="Visit us on Twitter"
+            /></a>
+            <a
+              class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+              href="#"
+            >
+              <img
+                src="./src/assets/img/icon-pinterest.svg"
+                alt="Visit us on Pinterest"
+            /></a>
+            <a
+              class="relative before:absolute before:-bottom-2 before:left-1/2 before:h-0.5 before:w-0 before:-translate-x-1/2 before:bg-white before:transition-all before:duration-300 before:content-[''] hover:before:w-6"
+              href="#"
+            >
+              <img
+                src="./src/assets/img/icon-instagram.svg"
+                alt="Visit us on Instagram"
+            /></a>
+          </div>
+          <p class="text-gris">&copy; 2026 Loopstudios. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Drop-down menu -->
+    <nav
+      class="font-josefin-sans fixed inset-0 hidden bg-black text-3xl font-light text-white uppercase"
+      id="drop-down-menu"
+    >
+      <ul class="mx-auto flex h-full w-9/10 flex-col justify-center gap-10">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Support</a></li>
+      </ul>
+    </nav>
+    <script src="/src/main.js" type="module"></script>
+  </body>
+</html>
